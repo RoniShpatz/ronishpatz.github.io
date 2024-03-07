@@ -465,6 +465,7 @@ textarea {
   .container input:checked ~ .checkmark {
     background-color: #1D24CA;
   }
+  
  
 @media screen and (max-width:1217px){
     .podium-contiainer{

@@ -9,133 +9,134 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Diseny Music Lovers/Contact</title>
 </head>
-<body>
-    <div class="bkg-blue">
-        <header> 
-            <div class="header-container">
-                <a href="./home.html"><img src="./style/images/home-logo.png" alt="Home Logo Photo" class="logo-home"></a>
-                <div class="nav-bar">
-                    <a href="./history.html" ><p class="logo history">History</p></a>
-                    <a href="./most-pop.html"><p class="logo most-pop">Most Pop</p></a>
-                    <a href="./my-fav.html"><p class="logo my-fav">MY Fav</p></a>
-                    <a href="./contact.html"><p class="logo contact">Contact</p></a>
+<body class="push">
+    <div>  
+        <div class="bkg-blue">
+            <header> 
+                <div class="header-container">
+                    <a href="./home.html"><img src="./style/images/home-logo.png" alt="Home Logo Photo" class="logo-home"></a>
+                    <div class="nav-bar">
+                        <a href="./history.html" ><p class="logo history">History</p></a>
+                        <a href="./most-pop.html"><p class="logo most-pop">Most Pop</p></a>
+                        <a href="./my-fav.html"><p class="logo my-fav">MY Fav</p></a>
+                        <a href="./contact.html"><p class="logo contact">Contact</p></a>
+                    </div>
                 </div>
+                <div class="list-container ">
+                    <input id="check01" type="checkbox" name="menu" class="logo-check"/>
+                    <label for="check01" ><img src="./style/images/home-logo.png" alt="drop-menu-logo" class="drop-menu-logo"></label>
+                <ul class="menu">
+                    <li><a href="./home.html"><p class="logo home">Home</p></a></li>
+                    <li>  <a href="./history.html" ><p class="logo history">History</p></a></li>
+                    <li> <a href="./most-pop.html"><p class="logo most-pop">Most Pop</p></a></li>
+                    <li>  <a href="./my-fav.html"><p class="logo my-fav">MY Fav</p></a></li>
+                    <li><a href="./contact.html"><p class="logo contact">Contact</p></a></li>
+                </ul>
+            </header>
+            <h1 class="history-h1"> Review to Diseny Music Lovers</h1>
+            <form action="/action_page.php">
+                <h3>what is your age?</h3>
+                <label for="age1" class="container">Less then 16
+                    <input type="radio" id="age1" name="age" value="les then 16" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+                <label for="age2" class="container">16-29
+                    <input type="radio" id="age2" name="age" value="16-29" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+                <label for="age3" class="container">30-40
+                    <input type="radio" id="age3" name="age" value="30-40">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+                <label for="age4" class="container">Over 40
+                    <input type="radio" id="age4" name="age" value="over 40">
+                    <span class="checkmark"></span>
+                </label>
+
+                <h3>Did you find this website useful?</h3>
+
+                <label for="very-useful" class="container">very Useful
+                    <input type="radio" id="very-useful" name="find" value="very usefull">
+                    <span class="checkmark"></span>
+                </label>
+
+                <br>
+
+                <label for="useful" class="container">Useful
+                    <input type="radio" id="useful" name="find" value="useful">
+                    <span class="checkmark"></span>
+                </label>
+            
+                <br>
+
+                <label for="semi-useful" class="container">Semi Useful
+                    <input type="radio" id="semi-useful" name="find" value="semi-useful">
+                    <span class="checkmark"></span>
+                </label>
+                
+                <br>
+                <label for="slightly-usful" class="container">Slightly Useful
+                    <input type="radio" id="slightly-usful" name="find" value="slightly-usful">
+                    <span class="checkmark"></span>
+                </label>
+
+
+
+                <h3>Are you a Diseny Music Lover?</h3>
+
+                <label for="yes1" class="container">Yes! I have an Addiction to Diseny Music
+                    <input type="radio" id="yes1" name="answer" value="yes! i am an addiction">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+                <label for="yes2" class="container">Yes, I love Diseny Music
+                    <input type="radio" id="yes2" name="answer" value="yes, i love">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+                <label for="slightly" class="container">Slightly, it's Nice
+                    <input type="radio" id="slightly" name="answer" value="slightly">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+                <label for="no" class="container">No, What is Diseny Music?
+                    <input type="radio" id="no" name="answer" value="no">
+                    <span class="checkmark"></span>
+                </label>
+                <br>
+
+
+                <h3><label for="text-box" >Further insights and potential enhancements for the website:</label></h3>
+                <br>
+                <textarea id="text-box" name="text-box" rows="10" cols="70"></textarea>
+                <br>
+                <input type="submit" value="Submit Answers" id="costume-submit-answers">
+            </form>
+
+            
+            
+            <div class="mic-container">
+                
+                <img class="mic-right" src="./style/images/mic.png" alt="holdind microphone">
+            
             </div>
-            <div class="list-container ">
-                <input id="check01" type="checkbox" name="menu" class="logo-check"/>
-                <label for="check01" ><img src="./style/images/home-logo.png" alt="drop-menu-logo" class="drop-menu-logo"></label>
-            <ul class="menu">
-                <li><a href="./home.html"><p class="logo home">Home</p></a></li>
-                <li>  <a href="./history.html" ><p class="logo history">History</p></a></li>
-                <li> <a href="./most-pop.html"><p class="logo most-pop">Most Pop</p></a></li>
-                <li>  <a href="./my-fav.html"><p class="logo my-fav">MY Fav</p></a></li>
-                <li><a href="./contact.html"><p class="logo contact">Contact</p></a></li>
-            </ul>
-        </header>
-        <h1 class="history-h1"> Review to Diseny Music Lovers</h1>
-        <form action="/action_page.php">
-            <h3>what is your age?</h3>
-            <label for="age1" class="container">Less then 16
-                <input type="radio" id="age1" name="age" value="les then 16" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-            <label for="age2" class="container">16-29
-                <input type="radio" id="age2" name="age" value="16-29" checked="checked">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-            <label for="age3" class="container">30-40
-                <input type="radio" id="age3" name="age" value="30-40">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-            <label for="age4" class="container">Over 40
-                <input type="radio" id="age4" name="age" value="over 40">
-                <span class="checkmark"></span>
-            </label>
 
-            <h3>Did you find this website useful?</h3>
+            <div class="contact-container">
+                <a href="mailto:roni1kohen@gmail.com" class="contact-me"> <img src="./style/images/mail.png">Contact Me</a>
+            </div>
 
-            <label for="very-useful" class="container">very Useful
-                <input type="radio" id="very-useful" name="find" value="very usefull">
-                <span class="checkmark"></span>
-            </label>
-
-            <br>
-
-            <label for="useful" class="container">Useful
-                <input type="radio" id="useful" name="find" value="useful">
-                <span class="checkmark"></span>
-            </label>
-          
-            <br>
-
-            <label for="semi-useful" class="container">Semi Useful
-                <input type="radio" id="semi-useful" name="find" value="semi-useful">
-                <span class="checkmark"></span>
-            </label>
-            
-            <br>
-            <label for="slightly-usful" class="container">Slightly Useful
-                <input type="radio" id="slightly-usful" name="find" value="slightly-usful">
-                <span class="checkmark"></span>
-            </label>
-
-
-
-            <h3>Are you a Diseny Music Lover?</h3>
-
-            <label for="yes1" class="container">Yes! I have an Addiction to Diseny Music
-                <input type="radio" id="yes1" name="answer" value="yes! i am an addiction">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-            <label for="yes2" class="container">Yes, I love Diseny Music
-                <input type="radio" id="yes2" name="answer" value="yes, i love">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-            <label for="slightly" class="container">Slightly, it's Nice
-                <input type="radio" id="slightly" name="answer" value="slightly">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-            <label for="no" class="container">No, What is Diseny Music?
-                <input type="radio" id="no" name="answer" value="no">
-                <span class="checkmark"></span>
-            </label>
-            <br>
-
-
-            <h3><label for="text-box" >Further insights and potential enhancements for the website:</label></h3>
-            <br>
-            <textarea id="text-box" name="text-box" rows="10" cols="70"></textarea>
-            <br>
-            <input type="submit" value="Submit Answers" id="costume-submit-answers">
-        </form>
-
+        </div>
         
-        
-        <div class="mic-container">
+
+        <div class="white-space">
             
-            <img class="mic-right" src="./style/images/mic.png" alt="holdind microphone">
-          
+            <img class="logo-80" src="./style/images/80-years.png" alt="Diseny 80 years of music">
         </div>
 
-        <div class="contact-container">
-            <a href="mailto:roni1kohen@gmail.com" class="contact-me"> <img src="./style/images/mail.png">Contact Me</a>
-        </div>
-
-    </div>
-    
-
-    <div class="white-space">
-        
-        <img class="logo-80" src="./style/images/80-years.png" alt="Diseny 80 years of music">
-    </div>
-
-
+    </div>  
 
 
 
@@ -153,9 +154,12 @@
             <div class="socials">
                 <p>Follow Diseny</p>
                 <div class="socials-links">
-                    <a href="https://www.instagram.com/disney/"><img src="/style/images/instegram.png"></a>
-                    <a href="https://www.facebook.com/DisneyUK/?brand_redir=11784025953"><img src="./style/images/facebook.png"></a>
-                    <a href="https://twitter.com/Disney"><img src="./style/images/x.png"></a>
+                   <div id="social-img-insta"> <a href="https://www.instagram.com/disney/" class="social-img"></a></div>
+                    
+                   <div id="social-img-facebook"><a href="https://www.facebook.com/DisneyUK/?brand_redir=11784025953" class="social-img"></a></div>
+                   
+                   <div id="social-img-x"> <a href="https://twitter.com/Disney"></a></div>
+                   
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 header {
     padding: 1%;
@@ -183,10 +183,9 @@ footer{
     margin-top: 0;
     margin-bottom: 4rem;
     color: #1D24CA;
-    
     text-align: center;
     font-size: 5rem;
-    text-shadow: -2px 0px 11px rgba(29, 29, 51, 0.35);
+   
 }
 
 .bold-p{
@@ -406,7 +405,7 @@ form {
 h3 {
     font-size: 2rem;
 }
- input[type="submit"] {
+    input[type="submit"] {
 	background: none;
 	color: inherit;
 	border: none;
@@ -453,19 +452,37 @@ textarea {
   }
   .checkmark {
     position: absolute;
-    top: 0;
+    top: 0.3rem;
     left: 0;
     height: 20px;
     width: 20px;
     background-color: #F9E8C9;
+   
   }
   .container:hover input ~ .checkmark {
     background-color: #a7d4fb;
   }
   .container input:checked ~ .checkmark {
-    background-color: #1D24CA;
+     background-color: #1D24CA;
   }
-  
+
+
+  .contact-container{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .contact-me {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .contact-me:hover {
+    color: #98ABEE;
+  }
  
 @media screen and (max-width:1217px){
     .podium-contiainer{
@@ -595,5 +612,8 @@ textarea {
     color: #201658;
     font-size: 1.2rem;
     
+   }
+   .contact-me{
+    justify-content: end;
    }
 }
